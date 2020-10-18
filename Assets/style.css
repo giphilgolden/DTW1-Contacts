@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+    color: khaki;
+}
+
+h1 {
+   text-align: center; 
+   font-size: 160px;
+   padding: 3px;
+   border: 3px;
+   margin: 3px;
+   color: blue;
+background-image: linear-gradient(180deg, black, yellow, black);
+
+} 
+
+#Drop-Boxes {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    margin: 20px 20px 10px 20px;
+    font-size: larger;
+}
+
+.Shift-Title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.Job-Title {
+    font-size: 40px;
+    text-align: center; 
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#Info-Boxes{
+    display: flex;
+    justify-content: center;
+}

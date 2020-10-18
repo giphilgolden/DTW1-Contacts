@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phils DTW1 Contacts</title>
+    <link rel="stylesheet" href="../Assets/style.css">
+</head>
+<body>
+    <h1>Phils DTW1 Contacts</h1>
+
+    <div id="Drop-Boxes">
+        <select id="Shift-Select">
+            <option value="BHD">Back Half Days</option>
+            <option value="FHD">Front Half Days</option>
+            <option value="FHN">Front Half Nights</option>
+            <option value="RT">RT Shift</option>
+        </select>
+
+        <select id="Department-Select">
+            <option value="Non-Inventory">Non Inventory</option>
+            <option value="Inbound-Dock">Inbound Dock</option>
+            <option value="Inbound-Stow">Inbound Stow</option>
+            <option value="Outbound-Dock">Outbound Dock</option>
+            <option value="Pack">Pack</option>
+            <option value="Pick">Pick</option>
+            <option value="IT">IT</option>
+            <option value="Office">Office</option>
+            <option value="Security">Security</option>
+            <option value="Loss Prevention">Loss Prevention</option>
+        </select>
+
+        <button id="Drop-Boxes-Button">Click</button>
+    </div>
+
+    <div id="Info-Boxes">
+
+        <div id="BHD-NIR">
+            <div class="Shift-Title">Back Half Days Non Inventory</div>
+            <div class="Job-Title">Procurment Operations Analysts</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        Kathi Withun
+                    </td>
+                    <td>
+                        Withunk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eric Bronni
+                    </td>
+                    <td>
+                        Ebbronni
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Non Inventory Receivers</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        Philip Golden
+                    </td>
+                    <td>
+                        Goldenp
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        James Peeples
+                    </td>
+                    <td>
+                        Peepj
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Emily McDaniel
+                    </td>
+                    <td>
+                        Mcdemil
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHD-NIR" style="display: none">
+            <div class="Shift-Title">Front Half Days Non Inventory</div>
+            <div class="Job-Title">Procurment Operations Analysts</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        Kathi Withun
+                    </td>
+                    <td>
+                        Withunk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eric Bronni
+                    </td>
+                    <td>
+                        Ebbronni
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Non Inventory Receivers</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        Brian Collins
+                    </td>
+                    <td>
+                        Cllinsb
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Derris Young
+                    </td>
+                    <td>
+                        Derrisy
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Brian Kreps
+                    </td>
+                    <td>
+                        Krepbria
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHN-NIR" style="display: none">
+            <div class="Shift-Title">Front Half Nights Non Inventory</div>
+            <div class="Job-Title">Procurment Operations Analysts</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        Kathi Withun
+                    </td>
+                    <td>
+                        Withunk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eric Bronni
+                    </td>
+                    <td>
+                        Ebbronni
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Non Inventory Receivers</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="RT-NIR" style="display: none">
+            <div class="Shift-Title">RT Shift Non Inventory</div>
+            <div class="Job-Title">Procurment Operations Analysts</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        Kathi Withun
+                    </td>
+                    <td>
+                        Withunk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eric Bronni
+                    </td>
+                    <td>
+                        Ebbronni
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Non Inventory Receivers</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHD-Inbound-Dock" style="display: none">
+            <div class="Shift-Title">Front Half Days Inbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="BHD-Inbound-Dock" style="display: none">
+            <div class="Shift-Title">Back Half Days Inbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHN-Inbound-Dock" style="display: none">
+            <div class="Shift-Title">Front Half Nights Inbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="RT-Inbound-Dock" style="display: none">
+            <div class="Shift-Title">RT Shift Inbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHD-Inbound-Stow" style="display: none">
+            <div class="Shift-Title">Front Half Days Inbound Stow</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="BHD-Inbound-Stow" style="display: none">
+            <div class="Shift-Title">Back Half Days Inbound Stow</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHN-Inbound-Stow" style="display: none">
+            <div class="Shift-Title">Front Half Nights Inbound Stow</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="RT-Inbound-Stow" style="display: none">
+            <div class="Shift-Title">RT Shift Inbound Stow</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHD-Outbound-Dock" style="display: none">
+            <div class="Shift-Title">Front Half Days Outbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="BHD-Outbound-Dock" style="display: none">
+            <div class="Shift-Title">Back Half Days Outbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="FHN-Outbound-Dock" style="display: none">
+            <div class="Shift-Title">Front Half Nights Outbound Dock</div>
+            <div class="Job-Title">Job Tilte 1</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+            <div class="Job-Title">Job Title 2</div>
+            <table>
+                <th>Name</th>
+                <th>Login</th>
+
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ???
+                    </td>
+                    <td>
+                        ???
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    
+    <script src="../Assets/main.js"></script>
+</body>
+</html>
